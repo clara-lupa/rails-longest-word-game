@@ -1,3 +1,54 @@
 // Place all the styles related to the games controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+ @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.letters {
+  display: flex;
+  justify-content: left;
+}
+
+.letter {
+  font-size: 30px;
+  background-color: #337ab7;
+  color: white;
+  opacity: 0.8;
+  padding: 8px 16px;
+  font-family: 'Xanh Mono', monospace;
+  margin: 16px 8px;
+  margin-left: 0;
+  box-shadow: 0 0 20px rgba(120,120,120,0.8)
+}
+
+form {
+  display: inline-block;
+  margin-top: 16px;
+  .btn-blue {
+    background-color: #337ab7;
+    opacity: 0.8;
+    padding: 9px 24px;
+    font-size: 20px;
+    border: 0;
+    color: white;
+    border-radius: 0 8px 8px 0;
+  }
+
+  input {
+    padding: 8px 24px;
+    font-size: 20px;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid rgb(180, 180, 180);
+    border-right: 0;
+  }
+}
+
+a {
+  text-decoration: none
+}
